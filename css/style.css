@@ -1,0 +1,484 @@
+body {
+font-family: 'Source Sans Pro', sans-serif;
+background: #f8d89f;
+
+width: 100%;
+height: 100%;
+color: #121212;
+font-size: 11px;
+padding: 46px 0 0;
+overflow-y: scroll !important;
+}
+
+#header {
+height: 44px;
+text-align: center;
+position: fixed;
+width: 100%;
+top: 0;
+z-index: 999999;
+box-shadow: 1px 1px 3px 0px #112018;
+-webkit-box-shadow: 1px 1px 3px 0px #112018;
+-moz-box-shadow: 1px 1px 3px 0px #112018;
+-o-box-shadow: 1px 1px 3px 0px #112018;
+}
+#header, #footer {
+color: #ddf2ff;
+text-shadow: 1px 1px 1px #254736;
+background: #e85d1a;
+background: -moz-linear-gradient(top, #fb892d 0%, #e85d1a 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fb892d), color-stop(100%, #e85d1a));
+background: -webkit-linear-gradient(top, #fb892d 0%, #e85d1a 100%);
+background: -o-linear-gradient(top, #fb892d 0%, #e85d1a 100%);
+background: -ms-linear-gradient(top, #fb892d 0%, #e85d1a 100%);
+background: linear-gradient(to bottom, #fb892d 0%, #e85d1a 100%);
+filter: progid:dximagetransform.microsoft.gradient(startColorstr=#fb892d, endColorstr=#e85d1a, GradientType=0);
+}
+
+#header h1, #header h2 {
+margin: 0;
+font-weight: normal;
+}
+
+#header h2 {
+font-size: 11px;
+padding: 1px 0 0;
+text-transform: capitalize;
+}
+
+.nextButton {
+position: absolute;
+right: 0px;
+top: 0;
+width: 44px;
+text-align: center;
+line-height: 42px;
+font-size: 22px;
+color: #ddf2ff !important;
+}
+a, a:active, a:visited, a:focus, a:hover {
+text-decoration: none;
+color: #121212;
+}
+
+.name{color: #d6d6d6;}
+.position{color: #d6d6d6;}
+
+.content {
+margin: 2%;
+
+}
+.groupBox {
+background: #ffffff;
+
+border: 1px solid #f7d387;
+}
+
+.frontprofileimg{
+background: url('../img/background.jpg') repeat !important;
+
+}
+.innerContent {
+padding: 2%;
+}
+.profileArea .profileInfoArea .location {
+margin: 2px 0 4px;
+color: #2e2e2e;
+}
+
+.profileArea .profilePicAreaContainer, .profileArea .profilePicArea {
+width: 84px;
+height: 84px;
+overflow: hidden;
+margin-right: 7px;
+border-radius: 42px;
+-webkit-border-radius: 42px;
+-moz-border-radius: 42px;
+-o-border-radius: 42px;
+}
+.profileArea .profilePicAreaContainer {
+background: #f2f2f2;
+padding: 3px;
+border: 1px solid #e0e0e0;
+}
+
+/*.left {
+float: left;
+}*/
+.profileArea .profilePicAreaContainer .shadow {
+position: absolute;
+width: 84px;
+height: 84px;
+opacity: 0.5;
+filter: alpha(opacity=50);
+}.profileArea .profilePicAreaContainer .shadow {
+position: absolute;
+width: 84px;
+height: 84px;
+opacity: 0.5;
+filter: alpha(opacity=50);
+}
+img {
+border: 0;
+-ms-interpolation-mode: bicubic;
+vertical-align: middle;
+}
+.profileArea .profilePicAreaContainer img, .profileArea .profilePicArea img {
+width: 100%;
+}
+.profileArea .profileInfoArea .social img {
+height: 16px;
+}
+.profileArea .profileInfoArea {
+margin-top: 6px;
+font-size: 13px;
+}
+.separator {
+
+height: 2px;
+width: 100%;
+margin: 2% 0;
+}
+#pageHome .pagesMenu {
+margin: 0 2%;
+}
+#pageHome .pageLink {
+background: #ffffff;
+box-shadow: 1px 1px 2px 0px #999999;
+-webkit-box-shadow: 1px 1px 2px 0px #999999;
+-moz-box-shadow: 1px 1px 2px 0px #999999;
+-o-box-shadow: 1px 1px 2px 0px #999999;
+float: left;
+display: block;
+overflow: hidden;
+padding: 10px;
+color: #4d4d4d;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+/*margin: 0 5% 5% 0;*/
+width: 50%;
+}
+#pageHome .pageLink .iconBox {
+width: 100%;
+background: #dfdfdf;
+overflow: hidden;
+text-align: center;
+}
+#pageHome .pageLink .iconBox img {
+width: 100%;
+}
+#pageHome .pageLink .iconBox {
+text-align: center;
+}
+#pageHome .pageLink .titleBox {
+height: 20px;
+text-align: center;
+font-weight: 200;
+font-weight: 400;
+text-transform: uppercase;
+line-height: 23px;
+}
+#pageHome .pageLink:nth-child(3n+3) {
+margin-right: 0;
+}
+#pageHome .pageLink:nth-child(3n+3) {
+margin-right: 0;
+}
+.qtipLinks {
+display: none;
+}
+#footer {
+padding: 0 2%;
+position: relative;
+height: 23px;
+color: #fff;
+font-size: 10px;
+line-height: 23px;
+}
+#footer a.html5 {
+position: absolute;
+right: 4px;
+top: -2px;
+display: block;
+}
+a, a:active, a:visited, a:focus, a:hover {
+text-decoration: none;
+color: #121212;
+}
+
+.homeButton {
+position: absolute;
+left: 0px;
+top: 0px;
+background: url('../img/icon-home.png') no-repeat center center;
+width: 44px;
+height: 44px;
+color: #ddf2ff !important;
+}
+
+
+/***********RESUME------------------*/
+.groupBox ul li {
+line-height: 16px;
+padding: 2%;
+border-bottom: 1px solid #dfdfdf;
+}
+.groupBox ul li .value {
+font-weight: 600;
+font-size: 13px;
+}
+.groupBox ul li .key {
+font-weight: normal;
+font-size: 11px;
+color: #7b7a7a;
+text-transform: uppercase;
+}
+.groupBox ul li.last {
+border: 0px;
+}
+.skills {
+color: #7b7a7a;
+}
+
+.skills .skillBar .skillCount9 {
+width: 90%;
+}
+.skills .skillBar .skillCount7 {
+width: 70%;
+}
+.skills .skillBar .skillCount8 {
+width: 80%;
+}
+.skills .skillBar .skillCount8 {
+width: 80%;
+}
+.skills .skillBar .skillCount {
+height: 17px;
+line-height: 17px;
+background: #bfbfbf;
+color: #fff;
+font-size: 15px;
+font-weight: 600;
+text-align: right;
+position: relative;
+}
+
+#skillsTab {
+margin-top: -10px;
+}
+.groupBox ul.spacious li {
+padding: 10px;
+}
+.groupBox ul li .value {
+font-weight: 600;
+font-size: 13px;
+}
+.skills .value {
+margin-bottom: 4px;
+}
+.skills .skillBar {
+background: #f0f0f0;
+width: 100%;
+height: 17px;
+}
+
+/*---------------PORFOLIO--------------*/
+#pagePortfolio {
+margin-top: 10px;
+}
+#pagePortfolio .tabsPortfolio {
+position: relative;
+height: 30px;
+}
+#pagePortfolio .tabsPortfolio .instruction {
+position: absolute;
+display: none;
+padding-right: 20px;
+background: url(http://rahulv.com/templates/folio/css/../img/icon-finger.png) no-repeat right center;
+height: 32px;
+line-height: 32px;
+font-size: 12px;
+color: #7b7a7a;
+transition: all 0.4s;
+-moz-transition: all 0.4s;
+-webkit-transition: all 0.4s;
+-o-transition: color all 0.4s;
+}
+#pagePortfolio .tabsPortfolio ul {
+display: block;
+text-align: center;
+}
+#pagePortfolio .tabsPortfolio ul li {
+display: inline-block;
+}
+ul, li {
+list-style: none;
+}
+#pagePortfolio .tabsPortfolio ul li a {
+font-size: 22px;
+color: #bababa;
+}
+#pagePortfolio .tabsPortfolio ul li a.active {
+color: #414141;
+position: relative;
+text-shadow: 1px 1px 1px #fff;
+}
+#pagePortfolio .list {
+margin: 0 2%;
+}
+#pagePortfolio .list li {
+margin: 0 0 2% 0;
+}
+#pagePortfolio .list li .groupBox {
+border-right: 2px solid #509b75;
+}
+
+#pagePortfolio .portfolioProjects li a.thumb {
+display: block;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-o-border-radius: 3px;
+overflow: hidden;
+}
+#pagePortfolio .list li .thumb {
+float: left;
+width: 26%;
+}
+#pagePortfolio .portfolioProjects li a.thumb img {
+width: 100%;
+}
+#pagePortfolio .list li .description {
+position: relative;
+float: left;
+width: 74%;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+padding: 2px 18px 0 2%;
+}
+#pagePortfolio .list li .description .title {
+font-size: 14px;
+line-height: 16px;
+max-height: 32px;
+overflow: hidden;
+padding-bottom: 4px;
+color: #121212;
+}
+#pagePortfolio .list li .description .about {
+font-size: 12px;
+color: #7b7a7a;
+max-height: 28px;
+overflow: hidden;
+}
+#pagePortfolio .list li .description .website {
+position: absolute;
+right: -10px;
+top: 0;
+color: #509b75;
+padding: 0 10px 0 10px;
+font-size: 20px;
+height: 100%;
+display: block;
+line-height: 66px;
+}
+#pagePortfolio .list li {
+margin: 0 0 2% 0;
+}
+
+#pagePortfolio .grid {
+margin: 0 0 0 4%;
+}
+
+#pagePortfolio .grid li {
+float: left;
+margin: 0 22px 22px 0;
+border: 1px solid #ddd;
+width: 29%;
+margin: 0 3% 3% 0;
+}
+#pagePortfolio .grid .groupBox {
+background: none !important;
+border: 0 !important;
+}
+#pagePortfolio .grid .innerContent {
+padding: 0 !important;
+}
+#pagePortfolio .grid .description {
+display: none;
+}
+
+
+/*-----------------CONTACT--------------*/
+#pivotTabs {
+width: 100%;
+overflow: auto;
+}
+#pivotTabs #scroller {
+width: 4040px;
+float: left;
+padding: 0;
+}
+#pivotTabs #scroller ul {
+list-style: none;
+display: block;
+float: left;
+width: 100%;
+padding: 0;
+margin: 0;
+text-align: left;
+}
+#pivotTabs #scroller ul li {
+float: left;
+}
+#pivotTabs #scroller ul li a {
+display: block;
+font-size: 22px;
+line-height: 22px;
+text-decoration: none;
+padding: 10px 32px 10px 0;
+text-transform: lowercase;
+color: #a7a7a7;
+}
+#pivotTabs #scroller ul li a.active {
+color: #414141;
+text-shadow: 1px 1px 1px #fff;
+}
+#pivotTabs #scroller ul li a.goToFirst {
+
+}
+#pageContact .pivotTab {
+margin-top: -10px;
+}
+.sectionTitle {
+color: #7b7b7b;
+font-size: 11px;
+text-transform: uppercase;
+font-weight: normal;
+margin-top: 10px;
+padding: 12px 0 7px 0;
+text-shadow: 1px 1px 1px #fff;
+}
+.groupBox ul li.last {
+border: 0px;
+}
+.groupBox ul li {
+line-height: 16px;
+padding: 2%;
+border-bottom: 1px solid #dfdfdf;
+}
+
+#pageContact #map iframe {
+width: 100%;
+height: 150px;
+}
+small {
+font-size: 85%;
+}
+.groupBox.rounded {
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+-o-border-radius: 4px;
+}
